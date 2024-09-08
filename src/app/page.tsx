@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex flex-col items-center gap-8 max-w-screen-lg mx-auto my-20">
       <H2>B9 Game Download( Earing APP Pakistan) For Android 2024</H2>
       <Button size={'lg'} className='min-w-60 bg-yellow-300 font-bold'>Download</Button>
-      <Image src="/static/banner-image.jfif" alt="Picture of the author" className="max-w-screen-lg w-full " width={500} height={500} />
+      <Image src="/banner-image.jpg" alt="Picture of the author" className="max-w-screen-lg w-full " width={500} height={500} />
       <P>The B9 game is the Latest earing Application that you can play on your phone, computer, or tablet. In this game, you get a bingo card with numbers on it, and the numbers are called out, and you can mark them off. In B9 players get a virtual bingo card filled with numbers arranged in a grid. When numbers are drawn randomly players mark off corresponding numbers on their cards. B9 gaming is free of cost for Android and the account opening bonus is 15 rupees. The main protection is a referral bonus for players. Everyone can use their account ID as an invitation code. It provides unlimited earnings for players in Pakistan.</P>
       <P>B9 includes features like power-up players and a customizable theme and also makes it an engaging experience for players of all ages. By playing the B9 game you can earn real money while playing your favorite game. This game is made to challenge your brain while keeping you entertained for hours. A small indie team developed the B9 game. It was first released in 2024 and became unique because of its simplicity and strategy.  It is available for only Android platforms. You can download it from the Google Play or app store.</P>
       <div className="w-full">
