@@ -1,101 +1,78 @@
 import Image from "next/image";
+import { H2, H3, H5, P } from '@/components/Typography'
+import { Button } from '@/components/ui/button';
+
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
+    <div className="flex flex-col items-center gap-8 max-w-screen-lg mx-auto my-20">
+      <H2>B9 Game Download( Earing APP Pakistan) For Android 2024</H2>
+      <Button size={'lg'} className='min-w-60 bg-yellow-300 font-bold'>Download</Button>
+      <Image src="/banner-image.jfif" alt="Picture of the author" className="max-w-screen-lg w-full " width={500} height={500} />
+      <P>The B9 game is the Latest earing Application that you can play on your phone, computer, or tablet. In this game, you get a bingo card with numbers on it, and the numbers are called out, and you can mark them off. In B9 players get a virtual bingo card filled with numbers arranged in a grid. When numbers are drawn randomly players mark off corresponding numbers on their cards. B9 gaming is free of cost for Android and the account opening bonus is 15 rupees. The main protection is a referral bonus for players. Everyone can use their account ID as an invitation code. It provides unlimited earnings for players in Pakistan.</P>
+      <P>B9 includes features like power-up players and a customizable theme and also makes it an engaging experience for players of all ages. By playing the B9 game you can earn real money while playing your favorite game. This game is made to challenge your brain while keeping you entertained for hours. A small indie team developed the B9 game. It was first released in 2024 and became unique because of its simplicity and strategy.  It is available for only Android platforms. You can download it from the Google Play or app store.</P>
+      <div className="w-full">
+        <H3 className="text-left">B9 Bonus</H3>
+        <P>it&apos;s a cooperative game to earn a bonus in rupees, for the game bonus play more and more. There is no limit to playing and bonus collection. In many ways, you can earn a bonus by using tricks and tips.</P>
+      </div>
+      <div className="w-full">
+        <H3 className="text-left">B9 Tips And Tricks</H3>
+        <P>trips and tricks are used by players to get more cash on gameplay. Use IQ to detect game playouts and easily win. In the other hand you can use your game ID account to get more cash on friends&apos; inventions and </P>
+      </div>
+      <div className="w-full">
+        <H3 className="text-left">B9 Game Features</H3>
+        <ol className="list-decimal list-outside p-4">
+          <li>
+            <H5>3x3 Grid</H5>
+            <P>A small bingo card with 9 numbers in a 3x3 layout.</P>
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>
+            <H5>Fast Gameplay</H5>
+            <P>Fastly round due to reduced number of numbers.</P>
+          </li>
+          <li>
+            <H5>Winning patterns</H5>
+            <P>Players can win by making specific patterns.</P>
+          </li>
+          <li>
+            <H5>Online features</H5>
+            <P>Includes many chats, options, and customization.</P>
+          </li>
+          <li>
+            <H5>Auto Daubing</H5>
+            <P>There are options to automatically mark called numbers.</P>
+          </li>
+          <li>
+            <H5>Number pool</H5>
+            <P>Few numbers are called compared to traditional bingo.</P>
+          </li>
+        </ol>
+      </div>
+      <div className="w-full">
+        <H3>Modes of B9 Game</H3>
+        <P>B9 offers a variety of bingo modes to make the game exciting afresh.  The classic mode is standard bingo in which you can win by marking a full row and columns.  In blackout mode, the challenge increases and you have to cover numbers on your bingo card to win.  There is timed mode also in which you race against the clock to complete patterns before time finished. These modes give players different ways to enjoy the game.</P>
+      </div>
+      <div className="w-full">
+        <H3 className="text-left">Games varieties in B9</H3>
+        <ol className="list-decimal list-outside p-4">
+          <li>Teen Patti</li>
+          <li>Ludo</li>
+          <li>Joker</li>
+          <li>Andar Bahar</li>
+          <li>Mines</li>
+          <li>Pirate Flip</li>
+          <li>aviator</li>
         </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
+      <div className="w-full" >
+        <H3 className="text-left">B9 Game Review</H3>
+        <P>It is a basic and easy game to earn money. It has a simple format making it easy and great for all ages.  The game has different bingo modes and colorful themes which make it good to play.  It runs smoothly and loads quickly. B9 has no extra features or options. It is perfect for those people who want a quick and simple bingo game.  B9 is a good choice for those who like straightforward bingo experience.</P>
+      </div>
+      <div className="w-full">
+        <H3 className="text-left">Conclusion</H3>
+        <P>The B9 game is just a card game. It is an appearance that has seized the hearts of gamers worldwide.  It has many unique blends of engaging storylines, strategy, and strong community aspects. If you are a good gamer or not but B9 game offers something for everyone. The major features. You can earn money by taking part in various games like sports betting, live casino, and more.  In 2024 it is the best platform for earning money with great excitement.  Its features make a truly captivating experience for users.</P>
+      </div>    
     </div>
   );
 }
