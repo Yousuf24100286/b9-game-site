@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col items-center gap-8 max-w-screen-sm text-center mx-auto my-20">
       <H2>B9 Game Download (Earning APP Pakistan) For Android 2024</H2>
       <Link href="https://m.b9game3.com/refer/MDM0NTM0OTQ3NzM=">
-        <Button size={'lg'} className='min-w-60 bg-yellow-300 font-bold'>
+        <Button size={'lg'} className='min-w-60 bg-green-800 text-lg font-bold'>
           Download
         </Button>
       </Link>
