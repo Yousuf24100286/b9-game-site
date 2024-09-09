@@ -2,6 +2,14 @@ import Image from "next/image";
 import Link from 'next/link';
 import { H2, H3, H5, P } from '@/components/Typography'
 import { Button } from '@/components/ui/button';
+import { 
+  Table,
+  TableHead,
+  TableBody,
+  TableRow,
+  TableHeader,
+  TableCell
+} from "@/components/ui/table";
 
 
 export default function Home() {
@@ -13,6 +21,59 @@ export default function Home() {
           Download
         </Button>
       </Link>
+      <div>
+        <Table className="w-72">
+          {/* <TableHeader>
+            <TableRow>
+              <TableHead>App Name</TableHead>
+              <TableHead>Size</TableHead>
+            </TableRow>
+          </TableHeader> */}
+          <TableBody>
+            <TableRow>
+              <TableCell>
+                Size
+              </TableCell>
+              <TableCell>
+                23.78 MB
+              </TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell>
+                Version
+              </TableCell>
+              <TableCell>
+                v1.0.22
+              </TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell>
+                Requirements
+              </TableCell>
+              <TableCell>
+                Android 6+
+              </TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell>
+                Category
+              </TableCell>
+              <TableCell>
+                Card
+              </TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell>
+                Download
+              </TableCell>
+              <TableCell>
+                Free of cost
+              </TableCell>
+            </TableRow>
+          </TableBody>
+        </Table>
+        
+      </div>
       <Image src="/banner-image.jpg" alt="Picture of the author" className="max-w-screen-lg  w-screen" width={500} height={500} />
       <P>The B9 game is the Latest earing Application that you can play on your phone, computer, or tablet. In this game, you get a bingo card with numbers on it, and the numbers are called out, and you can mark them off. In B9 players get a virtual bingo card filled with numbers arranged in a grid. When numbers are drawn randomly players mark off corresponding numbers on their cards. B9 gaming is free of cost for Android and the account opening bonus is 15 rupees. The main protection is a referral bonus for players. Everyone can use their account ID as an invitation code. It provides unlimited earnings for players in Pakistan.</P>
       <P>B9 includes features like power-up players and a customizable theme and also makes it an engaging experience for players of all ages. By playing the B9 game you can earn real money while playing your favorite game. This game is made to challenge your brain while keeping you entertained for hours. A small indie team developed the B9 game. It was first released in 2024 and became unique because of its simplicity and strategy.  It is available for only Android platforms. You can download it from the Google Play or app store.</P>
