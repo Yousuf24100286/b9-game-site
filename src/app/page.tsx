@@ -22,13 +22,7 @@ export default function Home() {
         </Button>
       </Link>
       <div>
-        <Table className="w-72">
-          {/* <TableHeader>
-            <TableRow>
-              <TableHead>App Name</TableHead>
-              <TableHead>Size</TableHead>
-            </TableRow>
-          </TableHeader> */}
+        <Table className="w-72 text-left border-none">
           <TableBody>
             <TableRow>
               <TableCell>
