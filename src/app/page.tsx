@@ -4,10 +4,10 @@ import { H2, H3, H5, P } from '@/components/Typography'
 import { Button } from '@/components/ui/button';
 import { 
   Table,
-  TableHead,
+  // TableHead,
   TableBody,
   TableRow,
-  TableHeader,
+  // TableHeader,
   TableCell
 } from "@/components/ui/table";
 
