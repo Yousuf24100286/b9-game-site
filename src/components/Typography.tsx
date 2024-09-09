@@ -50,7 +50,7 @@ export const H5 = ({ children, className }: TypographyProps) =>
   <h5 className={cn("text-base leading-7 font-semibold", className)}>{children}</h5>
 
 export const P = ({ children, className }: TypographyProps) => 
-  <p className={cn("text-base leading-7 font-normal tracking-normal", className)}>{children}</p>;
+  <p className={cn("text-lg leading-7 font-normal tracking-normal", className)}>{children}</p>;
 
 export const Subtle = ({ children, className }: TypographyProps) =>
   <p className={cn("text-sm font-normal", className)}>{children}</p>;
