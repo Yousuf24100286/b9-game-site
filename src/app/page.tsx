@@ -5,10 +5,8 @@ import { H2, H3, H5, P } from '@/components/Typography'
 import { Button } from '@/components/ui/button';
 import { 
   Table,
-  // TableHead,
   TableBody,
   TableRow,
-  // TableHeader,
   TableCell
 } from "@/components/ui/table";
 
@@ -140,8 +138,7 @@ export default function Home() {
         </div>    
       </div>
     <footer className="flex items-center bg-black justify-between text-white px-8 py-2">
-      <H3>B9 Game Download</H3>
-      <P>© 2024 B9 Game Download</P>  
+      <P>B9gameofficial.com Copyright 2024</P>
     </footer>
     </React.Fragment>
   );
