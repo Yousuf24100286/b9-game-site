@@ -137,7 +137,7 @@ export default function Home() {
           <P>The B9 game is just a card game. It is an appearance that has seized the hearts of gamers worldwide.  It has many unique blends of engaging storylines, strategy, and strong community aspects. If you are a good gamer or not but B9 game offers something for everyone. The major features. You can earn money by taking part in various games like sports betting, live casino, and more.  In 2024 it is the best platform for earning money with great excitement.  Its features make a truly captivating experience for users.</P>
         </div>    
       </div>
-    <footer className="flex items-center bg-black justify-between text-white px-8 py-2">
+    <footer className="flex items-center bg-black justify-between text-white px-8 py-2 text-center">
       <P>B9gameofficial.com Copyright 2024</P>
     </footer>
     </React.Fragment>
