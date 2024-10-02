@@ -4,7 +4,9 @@ import React from 'react';
 import { H2, H3, H5, P } from '@/components/Typography'
 import { Button } from '@/components/ui/button';
 import PrivacyPolicy from "./privacy-policy/page";
-import OfferRealMoney from "@/b9-offer-real-money/page";
+import OfferRealMoney from "@/app/b9-offer-real-money/page";
+import DisclaimerPage from "./disclaimer-page/page";
+import RealOrFakePage from "./real-or-fake-page/page";
 
 import { 
   Table,
@@ -244,6 +246,8 @@ export default function Home() {
         </P>
         <PrivacyPolicy />
         <OfferRealMoney/>
+        <DisclaimerPage/>
+        <RealOrFakePage/>
         {/* <div className="w-full">
           <H3 className="">B9 Bonus</H3>
           <P>it&apos;s a cooperative game to earn a bonus in rupees, for the game bonus play more and more. There is no limit to playing and bonus collection. In many ways, you can earn a bonus by using tricks and tips.</P>
