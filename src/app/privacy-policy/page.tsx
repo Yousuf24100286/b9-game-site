@@ -1,4 +1,4 @@
-import { H2, H3, H4, H5, P } from '@/components/Typography'
+import {  H3, P } from '@/components/Typography'
 
 export default function PrivacyPolicy(){
     return(

@@ -4,6 +4,8 @@ import React from 'react';
 import { H2, H3, H5, P } from '@/components/Typography'
 import { Button } from '@/components/ui/button';
 import PrivacyPolicy from "./privacy-policy/page";
+import OfferRealMoney from "@/b9-offer-real-money/page";
+
 import { 
   Table,
   TableBody,
@@ -241,6 +243,7 @@ export default function Home() {
           There&apos;s no cost; users can install it from our website and use it freely.
         </P>
         <PrivacyPolicy />
+        <OfferRealMoney/>
         {/* <div className="w-full">
           <H3 className="">B9 Bonus</H3>
           <P>it&apos;s a cooperative game to earn a bonus in rupees, for the game bonus play more and more. There is no limit to playing and bonus collection. In many ways, you can earn a bonus by using tricks and tips.</P>
