@@ -2,7 +2,7 @@ import {  H3, P } from '@/components/Typography'
 
 export default function PrivacyPolicy(){
     return(
-        <div className="">
+        <div className="text-center">
             <H3>Privacy Policy</H3>
             <P className='p-2'>Welcome to <a className='underline' href="https://B9gameofficial.com" target="_blank" rel="noopener noreferrer">B9gameofficial.com</a>. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us.
             </P>
