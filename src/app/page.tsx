@@ -4,9 +4,9 @@ import React from 'react';
 import { H2, H3, H5, P } from '@/components/Typography'
 import { Button } from '@/components/ui/button';
 import PrivacyPolicy from "./privacy-policy/page";
-import OfferRealMoney from "@/app/b9-offer-real-money/page";
-import DisclaimerPage from "./disclaimer-page/page";
-import RealOrFakePage from "./real-or-fake-page/page";
+import OfferRealMoney from "@/trash/b9-offer-real-money/page";
+import DisclaimerPage from "../trash/disclaimer-page/page";
+import RealOrFakePage from "../trash/real-or-fake-page/page";
 
 import { 
   Table,
