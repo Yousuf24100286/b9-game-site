@@ -81,7 +81,7 @@ export default function PrivacyPolicy(){
             <ol className='p-2'>
                 <li><P>You may review, change, or terminate your account at any time.
                 </P></li>
-                <li><P>If you have questions or comments about this policy, you may email us at____________________________ or by post to:
+                <li><P>If you have questions or comments about this policy, you may email us at <a className='text-blue-500 hover:text-blue-800' href='mailto:contact@rehmat.works'>contact@rehmat.works</a> or by post to:
                 </P></li>
             </ol>
             <H3>Changes in Privacy Policy
@@ -95,7 +95,7 @@ export default function PrivacyPolicy(){
             <H3>Contacting the Site
             </H3>
             <P className='p-2'>We welcome your feedback and we thank you for using B9gameofficial! If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email below.
-            <br></br>Email: ___________________________</P>
+            <br></br>Email: <a className='text-blue-500 hover:text-blue-800' href='mailto:contact@rehmat.works'>contact@rehmat.works</a></P>
         </div>
     )
 }
